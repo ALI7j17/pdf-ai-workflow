@@ -28,5 +28,5 @@ for filename in os.listdir(input_dir):
             f.write(text)
 
         print(f"تم استخراج النص من {filename} بنجاح.")
-# commit message: add basic pdf text extractor
+
 
