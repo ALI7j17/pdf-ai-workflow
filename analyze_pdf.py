@@ -19,6 +19,8 @@ for filename in os.listdir(input_dir):
             text += page.get_text()
 
         doc.close()
+output_dir = "output"
+os.makedirs(output_dir, exist_ok=True)
 
         # كتابة النص إلى ملف جديد في مجلد الإخراج
         output_filename = filename.replace(".pdf", "_output.txt")
